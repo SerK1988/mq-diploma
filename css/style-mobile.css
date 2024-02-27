@@ -1,0 +1,265 @@
+/* CSS Document */
+._hidden {
+  display: none;
+}
+.popup {
+  max-width: 33rem;
+  top: 5.6rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+}
+.btn-close {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-size: 2.5rem;
+  top: -3rem;
+}
+.popup-title {
+  font-size: 1.6rem;
+  margin-top: 2.7rem;
+}
+.popup-select {
+  margin-bottom: 3.1rem;
+  background-position: right 2rem top 2rem;
+}
+.popup-btn {
+  margin-bottom: 3rem;
+}
+
+
+
+.header {
+  height: 63.9rem;
+  background-image: url("../img/banner-mobile.jpg");
+}
+.header-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 64rem;
+  min-width: 32rem;
+}
+
+.logo {
+  max-width: 27rem;
+  width: 100%;
+  padding-top: 0;
+  margin-top: 22.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+  position: absolute;
+  right: 0;
+}
+.navigation-btn::before {
+  top: 4.8rem;
+  right: 1.5rem;
+}
+.navigation-btn {
+  margin-top: 4rem;
+  margin-right: 1.5rem;
+}
+.navigation-btn::after {
+  top: 3.2rem;
+  right: 1.5rem;
+}
+
+.title {
+  max-width: 64rem;
+  font-size: 2.6rem;
+  line-height: 3.6rem;
+  margin-top: 3.5rem;
+}
+
+
+.trand-title,
+.shop-title {
+  font-size: 1.6rem;
+  margin-top: 4rem;
+}
+.trand-title::after,
+.shop-title::after,
+.popup-title::after {
+  margin-top: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+
+
+
+.trands-content {
+  display: block;
+  max-height: 93.4rem;
+  height: 100%;
+}
+.trand-content-1,
+.trand-content-2,
+.trand-content-3,
+.trand-content-4 {
+  width: 100%;
+  min-height: 23.1rem;
+  height: 100%;
+  margin-bottom: 0.3rem;
+}
+
+.trand-content-tags,
+.categories {
+  margin-right: 1.8rem;
+}
+.article-trand-title {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+.tr-poz {
+  min-height: 23.1rem;
+}
+.trand-desc {
+  padding: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  max-width: 64rem;
+  width: 100%;
+}
+
+
+
+.post-list {
+  display: block;
+  max-width: 64rem;
+  min-width: 32rem;
+  margin-top: 4.4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.articles {
+  min-width: 29rem;
+  margin-right: 0;
+}
+.article {
+  margin-bottom: 3.5rem;
+}
+.article:last-child {
+  margin-bottom: 3.5rem;
+  border-bottom: 0.3rem solid #eeeeee;
+}
+
+.picture,
+.description {
+  min-width: 10rem;
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.categories {
+  padding-top: 1.3rem;
+}
+
+.article-title {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.annotation {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+.annotation:first-child {
+  margin-top: 2.3rem;
+}
+
+
+
+.side-bar {
+  min-width: 29rem;
+  margin-left: 0;
+}
+
+.title-sidebar {
+  font-size: 1.6rem;
+}
+
+.article-title-new-post {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.form-search {
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+}
+
+.search {
+  max-width: 100%;
+}
+
+.subscription {
+  margin-bottom: 4.4rem;
+}
+
+.icon-tag {
+  margin-bottom: 4.4rem;
+}
+.tag {
+  margin-right: 0.6rem;
+  margin-bottom: 0.7rem;
+  padding: 0.5rem 1.2rem;
+}
+
+.theme {
+  padding-top: 1.9rem;
+}
+
+
+
+.shop {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 64rem;
+  min-width: 32rem;
+}
+.shop-content {
+  display: block;
+}
+.shop-box {
+  max-width: 100%;
+  margin-bottom: 2.6rem;
+}
+.shop-info {
+  height: 100%;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  padding-top: 5.5rem;
+  padding-bottom: 2.6rem;
+}
+
+
+
+.footer {
+  max-width: 64rem;
+  min-width: 32rem;
+  margin-top: 4.4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.copyright {
+  margin-bottom: 4.7rem;
+}
+
+
+
+@media (min-width: 641px), (orientation: landscape) and (max-width: 641px) {
+  .trands-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 50rem;
+    height: 100%;
+  }
+  .trand-content-1,
+  .trand-content-2,
+  .trand-content-3,
+  .trand-content-4 {
+    width: 49.8%;
+  }
+}
